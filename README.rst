@@ -15,11 +15,16 @@ Similar Projects
 ================
 
 * OpenSCAP Daemon: a daemon for recurring scans, local and remote
- * https://github.com/OpenSCAP/openscap-daemon
+
+  * https://github.com/OpenSCAP/openscap-daemon
+
 * Foreman OpenSCAP: a plugin for The Foreman for managing OpenSCAP policy, scans, and report aggregation
- * https://github.com/theforeman/foreman_openscap
+
+  * https://github.com/theforeman/foreman_openscap
+
 * SCAPtimony: a *deprecated* server application for report aggegation and storage
- * https://github.com/OpenSCAP/scaptimony
+
+  * https://github.com/OpenSCAP/scaptimony
 
 Note
 ====
