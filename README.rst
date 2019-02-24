@@ -11,8 +11,8 @@ Description
 
 A daemon designed to run on developer workstations that provides lightweight, automated OpenSCAP scanning and report aggregation.
 
-Building
-========
+Building for RPM Distribution
+=============================
 
 From the root of the project::
 
