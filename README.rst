@@ -16,6 +16,7 @@ Building for RPM Distribution
 
 From the root of the project::
 
+ sudo dnf install python3-wheel
  python3 setup.py bdist_rpm
 
 Similar Projects
