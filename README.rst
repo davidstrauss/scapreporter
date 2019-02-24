@@ -11,6 +11,13 @@ Description
 
 A daemon designed to run on developer workstations that provides lightweight, automated OpenSCAP scanning and report aggregation.
 
+Building
+========
+
+From the root of the project::
+
+ python3 setup.py bdist_rpm
+
 Similar Projects
 ================
 
