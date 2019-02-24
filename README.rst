@@ -19,6 +19,8 @@ From the root of the project::
  sudo dnf install python3-wheel
  python3 setup.py bdist_rpm
 
+The RPMs will appear in ``./dist/``.
+
 Similar Projects
 ================
 
