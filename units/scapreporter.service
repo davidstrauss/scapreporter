@@ -1,0 +1,10 @@
+[Unit]
+Description=Uploads an SCAP report
+Requires=scapscanner.service
+After=scapscanner.service
+ConditionACPower=true
+
+[Service]
+Type=oneshot
+StateDirectory=scapreporter
+ExecStart=/usr/bin/echo placeholder

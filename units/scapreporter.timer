@@ -1,0 +1,10 @@
+[Unit]
+Description=Periodically run SCAP scans and reporting
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+AccuracySec=12h
+
+[Install]
+WantedBy=timers.target

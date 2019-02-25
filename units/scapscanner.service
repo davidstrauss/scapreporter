@@ -1,0 +1,13 @@
+[Unit]
+Description=Generates an SCAP report
+ConditionACPower=true
+
+[Service]
+Type=oneshot
+StateDirectory=scapreporter
+ExecStartPre=/usr/bin/sleep 60
+ExecStart=/usr/bin/oscap xccdf eval --profile xccdf_org.ssgproject.content_profile_standard --results-arf $STATE_DIRECTORY/arf.xml /usr/share/xml/scap/ssg/content/ssg-fedora-ds.xml
+ExecStopPost=/usr/bin/chown scapreporter $STATE_DIRECTORY/arf.xml
+Nice=19
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7
