@@ -1,15 +1,15 @@
-====================
-SCAP Reporter Daemon
-====================
+=============
+SCAP Reporter
+=============
 
 
-A daemon for automated OpenSCAP reporting.
+A utility for automated OpenSCAP reporting.
 
 
 Description
 ===========
 
-A daemon designed to run on developer workstations that provides lightweight, automated OpenSCAP scanning and report aggregation.
+A utility for developer workstations that provides lightweight, automated OpenSCAP scanning and report aggregation.
 
 Building for RPM Distribution
 =============================
