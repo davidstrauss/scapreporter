@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-    Setup file for scapreporterd.
+    Setup file for scapreporter.
     Use setup.cfg to configure your project.
 
     This file was generated with PyScaffold 3.1.

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from scapreporterd.skeleton import fib
+from scapreporter.skeleton import fib
 
 __author__ = "David Strauss"
 __copyright__ = "David Strauss"

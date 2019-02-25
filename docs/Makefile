@@ -8,8 +8,8 @@ PAPER         =
 BUILDDIR      = _build
 AUTODOCDIR    = api
 AUTODOCBUILD  = sphinx-apidoc
-PROJECT       = scapreporterd
-MODULEDIR     = ../src/scapreporterd
+PROJECT       = scapreporter
+MODULEDIR     = ../src/scapreporter
 
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $?), 1)

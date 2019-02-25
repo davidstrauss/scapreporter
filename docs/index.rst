@@ -1,8 +1,8 @@
-=============
-scapreporterd
-=============
+============
+scapreporter
+============
 
-This is the documentation of **scapreporterd**.
+This is the documentation of **scapreporter**.
 
 .. note::
 
